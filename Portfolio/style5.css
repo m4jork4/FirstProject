@@ -1,0 +1,243 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+
+.head {
+    padding: 0;
+    margin: 0;
+    height: 15vh;
+    width: 100%;
+    background-image: url(images/17008240.jpg);
+    background-size: cover;
+    
+}
+
+
+
+
+.summary h1  {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    float: center;
+   
+}
+
+.card {
+    background: gray;
+    width: 350px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 0 15px 15px 15px;
+    box-shadow: 10% black;
+}
+.card-image {
+    background-color: lightgray;
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.pic-1 {
+    background-image: url(images/webdev.jpg);
+}
+
+.pic-2 {
+    background-image: url(images/softdev.jpg);
+}
+
+.pic-3 {
+    background-image: url(images/network.jpg);
+}
+
+.card h2  {
+    color: black;
+}
+
+.card p {
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.card a {
+    background-color: black;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    cursor: pointer;
+}
+
+
+.image-slider {
+    height: 50%;
+    width: 20%;
+    background-image: url(images/image12.png);
+    border-radius: 5%;
+    background-size: 100% 100%;
+    transform: translate(50% 50%);
+    box-shadow:  5px 5px 5px whitesmoke;
+    animation: slider 30s infinite linear;
+
+  }
+@keyframes slider{
+    15%{ background-image: url(images/image12.png);}
+    25%{ background-image: url(images/image13.jpg);}
+    35%{background-image: url(images/keeep.jpg);}
+    45%{background-image: url(images/imagekek.jpeg);}
+    55%{background-image: url(images/image14.png);}
+    65%{background-image: url(images/imageprog.jpg);}
+}
+
+
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 8%;
+    padding-right: 8%;
+    color: whitesmoke;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-shadow: 10px whitesmoke;
+}
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    padding-top: 0%;
+    
+}
+
+nav ul li a{
+    color: darkgray;
+    text-decoration: none;
+    text-shadow: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:red;
+    transition: .4s;
+}
+
+.btn{
+    
+    background-color:red;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: .4s;
+    
+    
+}
+
+.btn:hover{
+    transform: scale(1.2);
+    color: black;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/hatter3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 80%;
+    color:whitesmoke;
+    font-size: large;
+
+    
+}
+
+
+
+
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+footer p:nth-child(1){
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 1000px;
+	text-align: center;
+	line-height: 26px;
+    
+}
+.social{
+	display: flex;
+
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  red;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 20px;
+    cursor: pointer;
+}
+.social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color: whitesmoke;
+	bottom: 10px;
+	font-size: 14px; 
+}
+
